@@ -40,8 +40,8 @@ const route = { name: 'index' };
 
 const navigation = [
   { name: 'Home', href: '#', current: route.name == 'index' },
-  { name: 'Blog', href: '#', current: route.name == 'blog' },
-  { name: 'Projects', href: '#', current: route.name == 'projects' },
-  { name: 'About', href: '#', current: route.name == 'about' },
+  { name: 'Blog', href: '/blog', current: route.name.includes('blog') },
+  { name: 'Projects', href: '/projects', current: route.name == 'projects' },
+  { name: 'About', href: '/about', current: route.name == 'about' },
 ]
 </script>
