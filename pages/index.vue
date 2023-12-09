@@ -11,10 +11,10 @@
   <section class="flex flex-col md:flex-row">
     <div class="md:w-3/4">
       <h2 class="text-3xl font-bold mt-8">
-        Developed by Brandon Winger-Air
+        About | Brandon Winger-Air
       </h2>
       <p class="text-lg py-2">
-        I am a Developer and Designer living in Ontario, Canada with a degree in Enterprise Web & Mobile App Development. 
+        I am a Software Developer and Designer living in Ontario, Canada with a degree in Enterprise Web & Mobile App Development. 
         I am a passionate programmer who believes in applying best practices and creating solutions, always striving to improve.
       </p>
       <p class="text-lg py-2">
@@ -27,5 +27,9 @@
       </p>
     </div>
     <img src="~/assets/images/avatar.png" alt="" class="w-1/2 md:max-w-sm p-8 mx-auto my-auto">
+  </section>
+
+  <section class="text-3xl font-bold mt-8">
+    Latest Blog Posts
   </section>
 </template>
