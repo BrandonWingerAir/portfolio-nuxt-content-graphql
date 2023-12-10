@@ -1,7 +1,7 @@
 <template>
   <section>
     <h1 class="text-5xl font-bold mt-20">
-      👨‍💻 Project Portfolio
+      💼 Project Portfolio
     </h1>
     <p class="text-base text-gray-900 p-2 italic">
       Built with Nuxt 3, Tailwind and GraphQL
@@ -29,7 +29,12 @@
     <img src="~/assets/images/avatar.png" alt="" class="w-1/2 md:max-w-sm p-8 mx-auto my-auto">
   </section>
 
-  <section class="text-3xl font-bold mt-8">
-    Latest Blog Posts
+  <section class="mb-8">
+    <h2 class="text-3xl font-bold mt-8">
+      Latest Blog Posts
+    </h2>
+    <p class="text-lg py-2">
+      Under Construction 🚧
+    </p>
   </section>
 </template>
