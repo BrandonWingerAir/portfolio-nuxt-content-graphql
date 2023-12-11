@@ -1,16 +1,16 @@
 <template>
   <section>
-    <h1 class="text-5xl font-bold mt-20">
-      💼 Project Portfolio
+    <h1 class="text-5xl font-bold mt-20 mb-2">
+      💼 Website Dev /
     </h1>
-    <p class="text-base text-gray-900 p-2 italic">
+    <p class="text-base text-gray-900 mb-4 md:mb-2 p-2 italic">
       Built with Nuxt 3, Tailwind and GraphQL
     </p>
   </section>
 
-  <section class="flex flex-col md:flex-row">
-    <div class="md:w-3/4">
-      <h2 class="text-3xl font-bold mt-8">
+  <section class="flex flex-col md:flex-row transparent-bg ">
+    <div class="order-last md:order-first md:w-3/4 pt-0 md:pt-8 p-8">
+      <h2 class="text-2xl md:text-3xl font-bold">
         About | Brandon Winger-Air
       </h2>
       <p class="text-lg py-2">
@@ -21,16 +21,17 @@
         I have been developing projects for over 8 years and use my knowledge, passion, and experience to help freelance clients achieve their goals. 
         I am currently seeking any full-time opportunities and open to short-term contracts or projects.
       </p>
-      <p class="text-lg py-2">
+      <p class="text-lg">
         In my personal life I have two cats and in interest in music, graphics, art and technology. 
         I enjoy playing instruments & music, video games, reading, working out and watching shows or documentaries.
       </p>
     </div>
-    <img src="~/assets/images/avatar.png" alt="" class="w-1/2 md:max-w-sm p-8 mx-auto my-auto">
+
+    <img src="~/assets/images/avatar.png" alt="" id="avatar-img" class="w-1/2 md:max-w-sm p-0 md:p-8 mx-auto my-auto">
   </section>
 
-  <section class="mb-8">
-    <h2 class="text-3xl font-bold mt-8">
+  <section class="mb-8 transparent-bg p-8 mt-8">
+    <h2 class="text-3xl font-bold">
       Latest Blog Posts
     </h2>
     <p class="text-lg py-2">
@@ -38,3 +39,14 @@
     </p>
   </section>
 </template>
+
+<style>
+.transparent-bg {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+</style>
