@@ -18,12 +18,12 @@
         I am a passionate programmer who believes in applying best practices and creating solutions, always striving to improve.
       </p>
       <p class="text-lg py-2">
-        I have been developing projects for over 8 years and use my knowledge, drive, & experience to help clients achieve their goals. 
+        I have been developing projects for over 8 years and use my knowledge, drive & experience to help clients achieve their goals. 
         I am currently seeking any full-time opportunities and open to short-term contracts or freelance projects.
       </p>
       <p class="text-lg">
-        In my personal life I have two cats and in interest in music, graphics, art and technology.
-        I enjoy playing instruments & music, video games, reading, exercising and watching shows or documentaries.
+        In my personal life I have two cats and an interest in media, graphics, art and technology.
+        I enjoy playing instruments & music, video games, reading, exercising, nature/mountain biking and watching shows or documentaries.
       </p>
     </div>
 
