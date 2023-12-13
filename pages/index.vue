@@ -23,7 +23,7 @@
       </p>
       <p class="text-lg">
         In my personal life I have two cats and an interest in media, graphics, art and technology.
-        I enjoy playing instruments & music, video games, reading, exercising, nature & mountain biking and watching shows or documentaries.
+        I enjoy playing instruments & music, video games, reading, exercising, nature photography, mountain biking and watching shows or documentaries.
       </p>
     </div>
 

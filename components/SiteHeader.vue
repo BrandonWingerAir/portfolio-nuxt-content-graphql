@@ -22,6 +22,23 @@
             </div>
           </div>
         </div>
+
+        <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <button type="button" class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+            <span class="absolute -inset-1.5" />
+            <span class="sr-only">View notifications</span>
+            <BellIcon class="h-6 w-6" aria-hidden="true" />
+          </button>
+
+          <!-- Profile dropdown -->
+          <Menu as="div" class="relative ml-3">
+            <div>
+              <MenuButton class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                <a href="https://brandonwinger-air.com" target="_blank" class="uppercase text-white"><span class="hidden md:inline-block">Project</span> Portfolio 🖱️</a>
+              </MenuButton>
+            </div>
+          </Menu>
+        </div>
       </div>
     </div>
 
@@ -41,8 +58,8 @@ const route = useRoute();
 
 const navigation = [
   { name: 'Home', href: '/portfolio-nuxt-tailwind-graphql/', current: route.name == 'index' },
-  { name: 'Blog', href: '/portfolio-nuxt-tailwind-graphql/blog/hello-world', current: route.name.includes('blog') },
-  { name: 'Projects', href: '/portfolio-nuxt-tailwind-graphql/projects', current: route.name == 'projects' },
+  { name: 'Blog Posts', href: '/portfolio-nuxt-tailwind-graphql/blog/hello-world', current: route.name.includes('blog') },
+  { name: 'Nuxt Projects', href: '/portfolio-nuxt-tailwind-graphql/projects', current: route.name == 'projects' },
   { name: 'About', href: '/portfolio-nuxt-tailwind-graphql/about', current: route.name == 'about' },
 ]
 </script>
