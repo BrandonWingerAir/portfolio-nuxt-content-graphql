@@ -18,7 +18,7 @@
           </div>
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
-              <a v-for="item in navigation" :key="item.name" :href="item.href" :class="[item.current ? 'bg-gray-900 text-white uppercase disable-links' : 'text-gray-300 hover:bg-gray-700 hover:text-white uppercase disable-links', 'rounded-md px-3 py-2 text-sm font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</a>
+              <a v-for="item in navigation" :key="item.name" :href="item.href" :class="[item.current ? 'bg-gray-900 text-white uppercase' : 'text-gray-300 hover:bg-gray-700 hover:text-white uppercase', 'rounded-md px-3 py-2 text-sm font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</a>
             </div>
           </div>
         </div>
@@ -27,7 +27,7 @@
 
     <DisclosurePanel class="sm:hidden">
       <div class="space-y-1 px-2 pb-3 pt-2">
-        <DisclosureButton v-for="item in navigation" :key="item.name" as="a" :href="item.href" :class="[item.current ? 'bg-gray-900 text-white disable-links' : 'text-gray-300 hover:bg-gray-700 hover:text-white disable-links', 'block rounded-md px-3 py-2 text-base font-medium disable-links']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</DisclosureButton>
+        <DisclosureButton v-for="item in navigation" :key="item.name" as="a" :href="item.href" :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block rounded-md px-3 py-2 text-base font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</DisclosureButton>
       </div>
     </DisclosurePanel>
   </Disclosure>
@@ -37,18 +37,12 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
-const route = { name: 'index' };
+const route = useRoute();
 
 const navigation = [
-  { name: 'Home', href: '#', current: route.name == 'index' },
-  { name: 'Blog', href: '/blog', current: route.name.includes('blog') },
-  { name: 'Projects', href: '/projects', current: route.name == 'projects' },
-  { name: 'About', href: '/about', current: route.name == 'about' },
+  { name: 'Home', href: '/portfolio-nuxt-tailwind-graphql/', current: route.name == 'index' },
+  { name: 'Blog', href: '/portfolio-nuxt-tailwind-graphql/blog', current: route.name.includes('blog') },
+  { name: 'Projects', href: '/portfolio-nuxt-tailwind-graphql/projects', current: route.name == 'projects' },
+  { name: 'About', href: '/portfolio-nuxt-tailwind-graphql/about', current: route.name == 'about' },
 ]
 </script>
-
-<style>
-.disable-links {
-  pointer-events: none;
-}
-</style>

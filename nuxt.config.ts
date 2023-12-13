@@ -3,9 +3,13 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss',
-    'nuxt-icon'
+    'nuxt-icon',
+    '@nuxt/content'
   ],
   app: {
     baseURL: "/portfolio-nuxt-tailwind-graphql/"
+  },
+  content: {
+    // ... options
   }
 })
