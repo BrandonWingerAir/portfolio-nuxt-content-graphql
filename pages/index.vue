@@ -8,7 +8,7 @@
     </p>
   </section>
 
-  <section class="flex flex-col md:flex-row transparent-bg ">
+  <section class="flex flex-col md:flex-row transparent-bg">
     <div class="order-last md:order-first md:w-3/4 pt-0 md:pt-8 p-8">
       <h2 class="text-2xl md:text-3xl font-bold">
         About | Brandon Winger-Air
@@ -18,7 +18,7 @@
         I am a passionate programmer who believes in applying best practices and creating solutions, always striving to improve.
       </p>
       <p class="text-lg py-2">
-        I have been developing projects for over 8 years, using my knowledge, drive and experience to help clients achieve their goals. 
+        I have been developing projects for over 8 years using my knowledge, drive and experience to help clients achieve their goals. 
         I am currently seeking any full-time opportunities and open to short-term contracts or freelance projects.
       </p>
       <p class="text-lg">
@@ -39,3 +39,9 @@
     </p>
   </section>
 </template>
+
+<script>
+definePageMeta({
+  layout: 'animated-bg'
+});
+</script>
