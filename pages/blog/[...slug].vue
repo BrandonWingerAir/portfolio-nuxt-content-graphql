@@ -1,8 +1,14 @@
 <template>
-  <h1 class="text-5xl mt-20 mb-10">
-    💼 Website Dev / <span class="font-bold">Blog</span>
+  <h1 class="text-3xl md:text-5xl mt-14 mb-4">
+    <span class="font-semibold">🖱️</span> Website Dev /
+    <span class="font-bold">Blog</span>
   </h1>
-  <section class="transparent-bg-dark p-8 text-white">
+
+  <p class="text-base text-gray-900 mb-4 md:mb-2 p-2 italic">
+    Built with Nuxt 3, Tailwind and GraphQL
+  </p>
+
+  <section class="transparent-bg-dark md:mt-16 p-8 text-white">
     <p>{{ $route.params.slug }}</p>
     <main>
       <ContentDoc #not-found>
