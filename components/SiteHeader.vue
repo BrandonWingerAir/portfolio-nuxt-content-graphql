@@ -28,7 +28,7 @@
           <Menu as="div" class="relative ml-3">
             <div>
               <MenuButton class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-                <a href="https://brandonwinger-air.com" target="_blank" class="uppercase text-white"><span class="hidden md:inline-block">Main</span> Portfolio 💼</a>
+                <a href="https://brandonwinger-air.com" target="_blank" class="uppercase text-white font-light"><span class="hidden md:inline-block">Main</span> Portfolio 💼</a>
               </MenuButton>
             </div>
           </Menu>
@@ -54,6 +54,7 @@ const navigation = [
   { name: 'Home', href: '/portfolio-nuxt-tailwind-graphql/', current: route.name == 'index' },
   { name: 'Blog Posts', href: '/portfolio-nuxt-tailwind-graphql/blog/hello-world', current: route.name.includes('blog') },
   { name: 'Nuxt Projects', href: '/portfolio-nuxt-tailwind-graphql/projects', current: route.name == 'projects' },
+  { name: 'Tailwind Projects', href: '/portfolio-nuxt-tailwind-graphql/projects', current: route.name == 'projects' },
   { name: 'About', href: '/portfolio-nuxt-tailwind-graphql/about', current: route.name == 'about' },
 ]
 </script>
