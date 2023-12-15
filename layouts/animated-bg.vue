@@ -8,7 +8,7 @@
 #animated-bg {
   background: linear-gradient(-45deg, #f44336, #e91e63, #673ab7, #23a6d5, #23d5ab, #4caf50);
   background-size: 400% 400%;
-	animation: gradient 25s ease infinite;
+	animation: gradient 30s ease infinite;
 }
 
 @keyframes gradient {

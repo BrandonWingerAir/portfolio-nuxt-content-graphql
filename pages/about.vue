@@ -11,12 +11,12 @@
       </button>
     </a>
 
-    <p class="text-base text-gray-900 mb-4 md:mb-2 p-2 italic">
-      Built with Nuxt 3, Tailwind and GraphQL
+    <p class="text-base text-gray-900 mt-2 mb-4 md:mb-2 p-2 italic">
+      <span class="font-semibold">Project Site</span> by <a href="https://brandonwinger-air.com" target="_blank" class="hover:underline">Brandon Winger-Air</a>
     </p>
   </section>
 
-  <section class="flex flex-col md:flex-row transparent-bg-gray text-neutral-100 mt-4 md:mb-12">
+  <section class="flex flex-col md:flex-row transparent-bg-gray text-neutral-200 mt-4 md:mb-12">
     <div class="order-last md:order-first md:w-3/4 pt-0 md:pt-8 p-8 md:pr-2">
       <div class="flex justify-between">
         <h2 class="w-full text-2xl md:text-3xl font-bold text-center md:text-left mb-2">
@@ -33,23 +33,23 @@
       <hr class="mt-6 mb-4 border-gray-400">
 
       <p class="text-lg py-2">
-        <b>Developer</b> and <b>Designer</b> living in <b class="font-normal md:bold">Ontario, Canada</b> with a degree in <b>Enterprise Web & Mobile App Development</b>. 
+        <b>Developer</b> and <b>Designer</b> living in <b class="font-normal md:font-bold">Ontario, Canada</b> with a degree in <b>Enterprise Web & Mobile App Development</b>. 
       </p>
       <p class="text-lg py-2">
-        I am a passionate programmer who enjoys learning, implementing best practices, solving challenges and always striving to improve.
+        I am a passionate programmer who enjoys learning, implementing best practices, solving creative challenges and always striving to improve.
       </p>
       <p class="text-lg py-2">
         I have been developing for 8+ years using my knowledge, research and diverse experience to help clients achieve their goals. 
       </p>
       <p class="text-lg py-2">
-        In my personal life I have two cats and an interest in the arts, media and technology.
-        I enjoy playing instruments, video games, exercising, nature, mountain biking and watching shows or documentaries.
+        In my personal life I have two cats and an interest in the arts, cooking, media production and technology.
+        I enjoy playing instruments, video games, nature, mountain biking and watching shows or documentaries.
       </p>
       <p class="text-lg font-bold">
         I am currently seeking any long-term opportunities and open to contracts or freelance projects.
       </p>
 
-      <div class="mt-6 mb-2">
+      <div class="mt-6 mb-4">
         <a href="mailto:brandon.air.web@gmail.com" id="btn-animated">
           <svg width="278" height="62">
             <defs>
@@ -71,5 +71,8 @@
     </div>
   </section>
 
+  <p class="text-base text-gray-900 -mb-8 mt-8 p-2 text-center">
+    Built with Nuxt 3, Tailwind and GraphQL
+  </p>
   <img src="~/assets/images/avatar.png" alt="" class="w-48 mx-auto">
 </template>

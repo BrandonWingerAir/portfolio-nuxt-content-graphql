@@ -4,8 +4,8 @@
     <span class="font-bold">Blog</span>
   </h1>
 
-  <p class="text-base text-gray-900 mb-4 md:mb-2 p-2 italic">
-    Built with Nuxt 3, Tailwind and GraphQL
+  <p class="text-base text-gray-900 mt-2 mb-4 md:mb-2 p-2 italic">
+    <span class="font-semibold">Project Site</span> by <a href="https://brandonwinger-air.com" target="_blank" class="hover:underline">Brandon Winger-Air</a>
   </p>
 
   <section class="transparent-bg-dark md:mt-16 p-8 text-white">
