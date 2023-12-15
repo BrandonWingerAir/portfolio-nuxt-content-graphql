@@ -16,14 +16,15 @@
     </p>
   </section>
 
-  <section class="flex flex-col md:flex-row transparent-bg-gray text-white mt-4 md:mb-12">
+  <section class="flex flex-col md:flex-row transparent-bg-gray text-neutral-100 mt-4 md:mb-12">
     <div class="order-last md:order-first md:w-3/4 pt-0 md:pt-8 p-8 md:pr-2">
       <div class="flex justify-between">
-        <h2 class="w-full text-2xl md:text-3xl font-bold text-center md:text-left">
+        <h2 class="w-full text-2xl md:text-3xl font-bold text-center md:text-left mb-2">
           Brandon Winger-Air
         </h2>
-        <button class="hidden md:block w-32 h-10 bg-slate-200 hover:bg-slate-300 rounded-md">
-          <a href="https://github.com/BrandonWingerAir" target="_blank" class="text-slate-800 text-right justify-self-end font-semibold pt-2">
+
+        <button class="hidden md:block w-32 h-10 bg-slate-200 hover:bg-slate-300 rounded-md -mt-1">
+          <a href="https://github.com/BrandonWingerAir" target="_blank" class="text-slate-800 text-right justify-self-end font-semibold">
             Github <Icon name="uil:github" size="1.75rem" class="text-green-500 ml-1 -mt-1"/>
           </a>
         </button>
@@ -66,7 +67,7 @@
     </div>
 
     <div class="w-1/2 md:max-w-sm p-0 md:p-10 self-center mx-auto mt-9 mb-6 md:mt-0">
-      <img src="~/assets/images/profile.png" alt="" class="w-85 mx-auto my-auto border-2 border-slate-100 rounded-full">
+      <img src="~/assets/images/profile.png" alt="" class="w-85 mx-auto my-auto border-2 border-zinc-100 rounded-full">
     </div>
   </section>
 
