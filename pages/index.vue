@@ -16,7 +16,7 @@
   </section>
 
   <section class="transparent-bg p-8 mt-3 mb-10">
-    <h2 class="text-3xl font-bold">
+    <h2 class="text-2xl md:text-3xl font-bold">
       Latest Blog Posts
     </h2>
     <p class="text-lg py-2">
@@ -25,7 +25,7 @@
   </section>
   
   <section class="flex flex-col md:flex-row transparent-bg">
-    <div class="order-last md:order-first md:w-3/4 pt-0 md:pt-8 p-8 md:pr-2">
+    <div class="md:w-3/4 pt-8 p-8 md:pr-2">
       <h2 class="text-2xl md:text-3xl font-bold text-center md:text-left">
         <span class="border-gray-800 md:border-0 text-center pb-4 md:pb-0 font-semibold md:font-bold border-b-2">About</span> <span class="hidden md:inline-block font-semibold">|</span> <span class="block md:inline-block mt-8 md:mt-0"></span>Brandon Winger-Air
       </h2>
@@ -33,24 +33,40 @@
       <hr class="mt-6 mb-4 border-gray-600">
 
       <p class="text-lg py-2">
-        <b>Developer</b> and <b>Designer</b> living in <b>Ontario, Canada</b> with a degree in <b>Enterprise Web & Mobile App Development</b>. 
+        <b>Developer</b> and <b>Designer</b> living in <b class="font-normal md:bold">Ontario, Canada</b> with a degree in <b>Enterprise Web & Mobile App Development</b>. 
       </p>
       <p class="text-lg py-2">
         I am a passionate programmer who enjoys learning, implementing best practices, solving challenges and always striving to improve.
       </p>
       <p class="text-lg py-2">
-        I have been developing solutions for over 8 years using my knowledge, research and diverse experience to help clients achieve their goals. 
+        I have been developing for 8+ years using my knowledge, research and diverse experience to help clients achieve their goals. 
       </p>
       <p class="text-lg py-2">
         In my personal life I have two cats and an interest in the arts, media and technology.
-        I enjoy playing instruments, video games, reading, exercising, nature, mountain biking and watching shows or documentaries.
+        I enjoy playing instruments, video games, exercising, nature, mountain biking and watching shows or documentaries.
       </p>
       <p class="text-lg font-bold">
         I am currently seeking any long-term opportunities and open to contracts or freelance projects.
       </p>
+
+      <div class="mt-6">
+        <a href="mailto:brandon.air.web@gmail.com" id="btn-animated">
+          <svg width="278" height="62">
+            <defs>
+                <linearGradient id="grad1">
+                    <stop offset="0%" stop-color="#BFFF80"/>
+                    <stop offset="100%" stop-color="#80FFFF" />
+                </linearGradient>
+            </defs>
+            <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+          </svg>
+
+          <span>Contact Me</span>
+        </a>
+      </div>
     </div>
 
-    <div class="w-1/2 md:max-w-sm p-0 md:p-10 self-center mx-auto mt-9 mb-6 md:mt-0">
+    <div class="w-1/2 md:max-w-sm p-0 md:p-10 self-center mx-auto mb-6 md:mt-0">
       <img src="~/assets/images/Brandon_Winger-Air_logo.png" alt="" class="mx-auto my-auto">
     </div>
   </section>

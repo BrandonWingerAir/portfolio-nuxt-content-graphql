@@ -32,25 +32,41 @@
       <hr class="mt-6 mb-4 border-gray-400">
 
       <p class="text-lg py-2">
-        <b>IT Developer</b> and <b>Designer</b> living in <b>Ontario, Canada</b> with a degree in <b>Enterprise Web & Mobile App Development</b>. 
+        <b>Developer</b> and <b>Designer</b> living in <b class="font-normal md:bold">Ontario, Canada</b> with a degree in <b>Enterprise Web & Mobile App Development</b>. 
       </p>
       <p class="text-lg py-2">
         I am a passionate programmer who enjoys learning, implementing best practices, solving challenges and always striving to improve.
       </p>
       <p class="text-lg py-2">
-        I have been developing solutions for over 8 years using my knowledge, research and diverse experience to help clients achieve their goals. 
+        I have been developing for 8+ years using my knowledge, research and diverse experience to help clients achieve their goals. 
       </p>
       <p class="text-lg py-2">
         In my personal life I have two cats and an interest in the arts, media and technology.
-        I enjoy playing instruments, video games, reading, exercising, nature, mountain biking and watching shows or documentaries.
+        I enjoy playing instruments, video games, exercising, nature, mountain biking and watching shows or documentaries.
       </p>
       <p class="text-lg font-bold">
         I am currently seeking any long-term opportunities and open to contracts or freelance projects.
       </p>
+
+      <div class="mt-6 mb-2">
+        <a href="mailto:brandon.air.web@gmail.com" id="btn-animated">
+          <svg width="278" height="62">
+            <defs>
+                <linearGradient id="grad1">
+                    <stop offset="0%" stop-color="#BFFF80"/>
+                    <stop offset="100%" stop-color="#80FFFF" />
+                </linearGradient>
+            </defs>
+            <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+          </svg>
+
+          <span id="btn-animated-light">Contact Me</span>
+        </a>
+      </div>
     </div>
 
     <div class="w-1/2 md:max-w-sm p-0 md:p-10 self-center mx-auto mt-9 mb-6 md:mt-0">
-      <img src="~/assets/images/profile.png" alt="" class="mx-auto my-auto border-2 border-gray-200">
+      <img src="~/assets/images/profile.png" alt="" class="w-85 mx-auto my-auto border-2 border-slate-100 rounded-full">
     </div>
   </section>
 
