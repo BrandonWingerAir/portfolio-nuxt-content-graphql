@@ -1,6 +1,6 @@
 <template>
   <section class="grid md:grid-cols-2">
-    <h1 class="text-3xl md:text-5xl mt-8 md:mt-14 mb-4">
+    <h1 class="text-3xl md:text-5xl mt-10 md:mt-14 mb-4">
       🖱️ Website Dev /
       <span class="font-semibold">Home</span>
     </h1>
@@ -20,7 +20,7 @@
   <section class="flex flex-col md:flex-row transparent-bg">
     <div class="md:w-3/4 pt-8 p-8 md:pr-2">
       <h2 class="text-2xl md:text-3xl font-bold text-center md:text-left">
-        <span class="border-gray-800 md:border-0 text-center pb-4 md:pb-0 font-semibold md:font-semibold border-b-2">About Me </span><span class="hidden md:inline-block font-semibold">|</span> <span class="block md:inline-block mt-8 md:mt-0 font-normal">Brandon Winger-Air</span>
+        <span class="border-gray-800 md:border-0 text-center pb-5 md:pb-0 font-semibold md:font-semibold border-b-2">About Me </span><span class="hidden md:inline-block font-semibold">|</span> <span class="block md:inline-block mt-10 md:mt-0 font-normal">Brandon Winger-Air</span>
       </h2>
 
       <hr class="mt-6 mb-4 border-gray-600">

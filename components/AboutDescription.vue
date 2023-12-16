@@ -12,7 +12,7 @@
     In my personal life I have two cats and an interest in the arts, cooking, media production and technology.
     I enjoy playing instruments, video games, nature, mountain biking and watching shows or documentaries.
   </p>
-  <p class="text-lg font-bold">
+  <p class="text-lg font-bold pt-2">
     I am currently seeking any long-term opportunities and open to contracts or freelance projects.
   </p>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <section class="grid md:grid-cols-2">
-    <h1 class="text-3xl md:text-5xl mt-14 mb-4">
+    <h1 class="text-3xl md:text-5xl mt-10 mt-14 mb-4">
       🖱️ Website Dev /
       <span class="font-semibold">About</span>
     </h1>
@@ -11,7 +11,7 @@
   <section class="flex flex-col md:flex-row transparent-bg-gray text-neutral-200 mt-4 md:mb-12">
     <div class="order-last md:order-first md:w-3/4 pt-0 md:pt-8 p-8 md:pr-2">
       <div class="flex justify-between">
-        <h2 class="w-full text-2xl md:text-4xl font-thin text-center md:text-left mb-2">
+        <h2 class="w-full text-2xl md:text-4xl font-thin text-center md:text-left mb-1">
           Brandon Winger-Air
         </h2>
 
