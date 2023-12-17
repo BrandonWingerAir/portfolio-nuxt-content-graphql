@@ -53,8 +53,7 @@ const route = useRoute();
 const navigation = [
   { name: 'Home', href: '/portfolio-nuxt-tailwind-graphql/', current: route.name == 'index' },
   { name: 'Blog Posts', href: '/portfolio-nuxt-tailwind-graphql/blog/hello-world', current: route.name.includes('blog') },
-  { name: 'Nuxt Projects', href: '/portfolio-nuxt-tailwind-graphql/projects', current: route.name == 'projects' },
-  { name: 'Tailwind Projects', href: '/portfolio-nuxt-tailwind-graphql/projects', current: route.name == 'projects' },
+  { name: 'Projects', href: '/portfolio-nuxt-tailwind-graphql/projects', current: route.name == 'projects' },
   { name: 'About', href: '/portfolio-nuxt-tailwind-graphql/about', current: route.name == 'about' },
 ]
 </script>

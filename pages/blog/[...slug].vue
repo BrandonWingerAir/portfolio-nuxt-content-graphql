@@ -6,10 +6,8 @@
   <SiteTagline/>
 
   <section class="transparent-bg-dark mt-8 p-8 text-white">
-    <p>{{ $route.params.slug }}</p>
-
     <main>
-      <ContentDoc #not-found>
+      <ContentDoc class="prose prose-invert text-white" #not-found>
         <p class="text-lg py-2">
           Under Construction 🚧
         </p>

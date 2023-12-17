@@ -10,6 +10,9 @@ export default defineNuxtConfig({
     baseURL: "/portfolio-nuxt-tailwind-graphql/"
   },
   content: {
-    // ... options
+    highlight: {
+      theme: 'nord',
+      preload: ['ts', 'js', 'html', 'css', 'java', 'json', 'bash', 'vue']
+    }
   }
 })
