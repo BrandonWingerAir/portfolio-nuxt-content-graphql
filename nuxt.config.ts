@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   content: {
     highlight: {
       theme: 'nord',
-      preload: ['ts', 'js', 'css', 'html', 'java', 'json', 'bash', 'vue']
+      preload: ['html', 'css', 'js', 'ts', 'json', 'bash', 'vue', 'java']
     }
   }
 })
