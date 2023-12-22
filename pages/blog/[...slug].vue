@@ -5,13 +5,13 @@
   </h1>
   <SiteTagline/>
 
-  <section class="transparent-bg-dark mt-8 p-8 text-white">
+  <section class="w-full transparent-bg-dark mt-8 p-8 text-white">
     <main>
       <p class="text-lg mb-5">
         Under Construction 🚧
       </p>
-      <hr class="w-48 mb-4">
-      <ContentRenderer :value="data" class="prose prose-invert"/>
+      <hr class="w-48">
+      <ContentRenderer :value="data" class="prose prose-invert my-4 mx-auto max-w-7xl"/>
       <div class="my-8">
         <a 
           v-for="tag in data.tags" 
