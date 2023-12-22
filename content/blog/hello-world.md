@@ -2,7 +2,7 @@
 title: Hello, World!
 description: This is my very first blog post and I'm so excited to share it with you!
 date: 2023-12-19
-cover: https://picsum.photos/300/200
+cover: nasa-Q1p7bh3SHj8-unsplash.jpg
 tags:
   - blog
 ---
@@ -13,7 +13,7 @@ This is a paragraph.
 
 This is another paragraph.
 
-![Randomized Placeholder](https://picsum.photos/300/200)
+![Randomized Placeholder](/images/blog/nasa-Q1p7bh3SHj8-unsplash.jpg)
 
 ## This is a heading 2
 
