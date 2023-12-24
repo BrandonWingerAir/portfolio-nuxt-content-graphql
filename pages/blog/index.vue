@@ -5,7 +5,11 @@
   </h1>
   <SiteTagline/>
 
-  <BlogPosts :posts="posts"/>
+  <section class="transparent-bg mt-8 p-8">
+    <h1 class="text-3xl mb-8">Blog Posts</h1>
+    <hr class="w-36 mb-8">
+    <BlogPosts :posts="posts"/>
+  </section>
 </template>
 
 <script setup>

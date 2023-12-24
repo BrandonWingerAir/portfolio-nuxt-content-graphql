@@ -1,13 +1,24 @@
 <template>
-  <section class="transparent-bg mt-8 p-8">
-    <h1 class="text-3xl mb-8">Blog Posts</h1>
-    <hr class="w-36">
-    <ul>
-      <li v-for="post in posts" :key="post._id" class="my-8 pb-4 border-b-2">
-        <nuxt-link :to="post._path" class="text-2xl">{{ post.title }}</nuxt-link>
-        <p>{{ post.description }}</p>
-      </li>
-    </ul>
+  <section class="grid md:grid-cols-3 mt-8 gap-10">
+    <div 
+      v-for="post in props.posts"
+      :key="post.slug"
+      class="bg-white rounded-lg shadow-md overflow-hidden hover:opacity-75"
+    >
+      <NuxtLink :to="post._path">
+        <img :src="`/images/blog/${post.cover}`" alt="Blog Post Cover Image" class="w-full h-48 object-cover">
+      </NuxtLink>
+      <div class="p-6">
+        <h2 class="text-xl font-bold mb-2">{{ post.title }}</h2>
+        <p class="text-gray-700 mb-4">{{ post.description }}</p>
+        <NuxtLink
+          :to="post._path"
+          class="inline-block.bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded float-right mb-8"
+        >
+          Read More
+        </NuxtLink>
+      </div>
+    </div>
   </section>
 </template>
 
