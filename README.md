@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# In Progress
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[View Demo](https://brandonwingerair.github.io/portfolio-nuxt-tailwind-graphql/)
 
 ## Setup
 
@@ -22,7 +22,7 @@ bun install
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
+Start the development server on `http://localhost:3000/portfolio-nuxt-tailwind-graphql/`:
 
 ```bash
 # npm
