@@ -12,9 +12,7 @@
     <h2 class="text-2xl md:text-3xl font-bold">
       Latest Blog Posts
     </h2>
-    <p class="text-lg py-2">
-      Under Construction 🚧
-    </p>
+    <BlogPosts :posts="posts"/>
   </section>
   
   <section class="flex flex-col md:flex-row transparent-bg">
@@ -52,10 +50,17 @@
   <SiteBottom/>
 </template>
 
-<script>
+<script setup>
 import AboutDescription from '~/components/AboutDescription.vue';
 
 definePageMeta({
   layout: 'animated-bg'
 });
+
+const { data: posts } = await useAsyncData('latest-posts', () => 
+  queryContent('/blog')
+    .sort({ data: 1 })
+    .limit(3)
+    .find()
+);
 </script>
