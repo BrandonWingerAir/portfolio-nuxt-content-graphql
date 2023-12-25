@@ -20,6 +20,10 @@ yarn install
 bun install
 ```
 
+## .env File
+
+GH_TOKEN=YOUR_PERSONAL_ACCESS_TOKEN
+
 ## Development Server
 
 Start the development server on `http://localhost:3000/portfolio-nuxt-tailwind-graphql/`:

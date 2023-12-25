@@ -21,6 +21,7 @@ jobs:
       - run: npm install
       - run: npm run build
         env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NITRO_PRESET: github_pages
 
       - name: Upload artifact
