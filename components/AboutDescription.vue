@@ -1,6 +1,6 @@
 <template>
   <p class="text-lg py-2">
-    <b>Developer</b> and <b>Designer</b> living in <b class="font-normal md:font-bold">Ontario, Canada</b> with a degree in <b>Enterprise Web & Mobile App Development</b>. 
+    Full-stack <b>Developer</b> and <b>Designer</b> living in <b class="font-normal md:font-bold">Ontario, Canada</b> with a degree in <b>Enterprise Web & Mobile App Development</b>. 
   </p>
   <p class="text-lg py-2">
     I am a passionate programmer who enjoys learning, implementing best practices, solving creative challenges and always striving to improve.
@@ -10,9 +10,9 @@
   </p>
   <p class="text-lg py-2">
     In my personal life I have two cats and an interest in the arts, cooking, media production and technology.
-    I enjoy playing instruments, video games, nature, working out/mountain biking, reading and watching shows or documentaries.
+    I enjoy playing instruments, video games, nature, staying fit, mountain biking or skateboarding, reading and watching shows or documentaries.
   </p>
   <p class="text-lg font-bold pt-2">
-    I am currently seeking any long-term opportunities and open to contracts or freelance projects.
+    I am currently seeking any long-term for hire opportunities and open to temporary contracts or freelance projects.
   </p>
 </template>
