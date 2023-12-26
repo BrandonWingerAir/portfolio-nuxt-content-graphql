@@ -13,7 +13,7 @@
       Recent Projects
     </h2>
     <hr class="w-56 mb-6">
-    <section class="grid grid-cols-2 gap-10">
+    <section class="grid md:grid-cols-2 gap-10">
       <div 
         v-for="project in data?.viewer.repositories.nodes" 
         :key="project.id" 

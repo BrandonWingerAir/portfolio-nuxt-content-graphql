@@ -54,6 +54,7 @@ const navigation = [
   { name: 'Home', href: '/portfolio-nuxt-tailwind-graphql/', current: route.name == 'index' },
   { name: 'Blog', href: '/portfolio-nuxt-tailwind-graphql/blog', current: route.name.includes('blog') },
   { name: 'Projects', href: '/portfolio-nuxt-tailwind-graphql/projects', current: route.name == 'projects' },
+  { name: 'Case Studies', href: '/portfolio-nuxt-tailwind-graphql/case-studies', current: route.name == 'case-studies' },
   { name: 'About', href: '/portfolio-nuxt-tailwind-graphql/about', current: route.name == 'about' },
 ]
 </script>

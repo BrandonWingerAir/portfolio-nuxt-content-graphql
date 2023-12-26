@@ -10,6 +10,8 @@
     <hr class="w-36 mb-8">
     <BlogPosts :posts="posts"/>
   </section>
+
+  <SiteBottom/>
 </template>
 
 <script setup>
