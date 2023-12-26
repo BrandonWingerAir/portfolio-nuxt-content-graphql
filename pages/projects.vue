@@ -26,8 +26,16 @@
         </a>
         <p class="text-gray-300">{{ project.description }}</p>
         <div class="text-white">
-          <button class="rounded-md bg-sky-500 hover:bg-sky-600 p-2 pt-1 mt-4 mr-3">View Site</button>
-          <button class="rounded-md bg-emerald-500 hover:bg-emerald-600 p-2 pt-1">View Code</button>
+          <button class="rounded-md bg-sky-500 hover:bg-sky-600 p-2 pt-1 mt-4 mr-3">
+            <a :href="project.homepageUrl" target="_blank">
+              View Site
+            </a>
+          </button>
+          <button class="rounded-md bg-emerald-500 hover:bg-emerald-600 p-2 pt-1">
+            <a :href="project.url" target="_blank">
+              View Code
+            </a>
+          </button>
         </div>
         <!-- <div class="mt-4">
           <Icon name="uil:star" size="1.1rem" class="text-indigo-700"/> Stars: {{ project.stargazerCount }}
@@ -52,7 +60,8 @@ const query = gql`
           name
           createdAt
           description
-          url
+          url,
+          homepageUrl
           # forkCount
           # watchers {
           #   totalCount
