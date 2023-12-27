@@ -9,10 +9,10 @@ export default defineNuxtConfig({
   ],
   site: { indexable: false },
   runtimeConfig: {
+    public: {
+      baseURL: process.env.NUXT_APP_BASE_URL || '/'
+    },
     githubToken: process.env.GH_TOKEN
-  },
-  app: {
-    baseURL: "/portfolio-nuxt-tailwind-graphql/"
   },
   content: {
     highlight: {

@@ -21,10 +21,12 @@
 
     <h2 class="text-2xl font-bold mt-8 mb-2">Custom Features:</h2>
     <ul class="list-disc">
-      <li class="ml-8 py-1">Color scheme, spacing and UI decisions</li>
+      <li class="ml-8 py-1">Color scheme, spacing & UI additions</li>
       <li class="ml-8 py-1">Animated gradient background</li>
-      <li class="ml-8 py-1">Nuxt pages for application routes</li>
-      <li class="ml-8 py-1">Github Actions workflow & API token environment secret</li>
+      <li class="ml-8 py-1">Nuxt pages and layouts</li>
+      <li class="ml-8 py-1">Github Actions workflow & deployment</li>
+      <li class="ml-8 py-1">API token environment secret and baseURL variable</li>
+      <li class="ml-8 py-1">Responsive styles and graphic design</li>
     </ul>
   
     <h2 class="text-2xl font-bold mt-8 mb-2">Based on a tutorial series by:</h2>

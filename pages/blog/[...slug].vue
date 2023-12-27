@@ -13,19 +13,24 @@
       <hr class="w-48">
       <ContentRenderer :value="data" class="prose prose-invert my-4 mx-auto max-w-7xl"/>
       <div class="my-8">
-        <!-- 
-          Link after tag page is added (Caused live build error)
-          :href="`/blog/tags/${tag}`" 
-         -->
-        <a 
+        <!-- TODO: Create Tags Page -->
+        <!-- <a 
           v-for="tag in data.tags" 
           :key="tag" 
-          :href="`/portfolio-nuxt-tailwind-graphql/blog`"
+          :href="`/blog/tags/${tag}`"
           class="text-sm font-semibold inline-block py-2 px-4 rounded-lg text-gray-100 bg-blue-500 uppercase last:mr-0 mr-4"
         >
           <Icon name="uil:tag" size="1.5rem" class="text-gray-100 mr-2"/>
           {{ tag }}
-        </a>
+        </a> -->
+        <span 
+          v-for="tag in data.tags" 
+          :key="tag"
+          class="text-sm font-semibold inline-block py-2 px-4 rounded-lg text-gray-100 bg-blue-500 uppercase last:mr-0 mr-4"
+        >
+          <Icon name="uil:tag" size="1.5rem" class="text-gray-100 mr-2"/>
+          {{ tag }}
+        </span>
       </div>
     </main>
   </section>
