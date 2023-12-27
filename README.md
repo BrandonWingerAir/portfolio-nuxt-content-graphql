@@ -1,6 +1,6 @@
 # In Progress
 
-[View Demo](https://brandonwingerair.github.io/portfolio-nuxt-tailwind-graphql/)
+[View Demo](https://blog.brandonwinger-air.com/)
 
 ## Setup
 
