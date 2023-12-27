@@ -1,6 +1,12 @@
-# In Progress
+# Blog & Portfolio Website
 
-[View Demo](https://blog.brandonwinger-air.com/)
+Built with Nuxt 3, Tailwind CSS and GraphQL
+
+## Demo Links
+
+[Live Site](https://blog.brandonwinger-air.com/)
+
+[GitHub Pages](https://brandonwingerair.github.io/portfolio-nuxt-tailwind-graphql/)
 
 ## Setup
 
