@@ -28,7 +28,10 @@ Redesign based on a [tutorial series](https://www.youtube.com/playlist?list=PL4c
 
 ```Dotenv
 # GitHub API for Projects page
-GH_TOKEN=YOUR_PERSONAL_ACCESS_TOKEN
+GH_TOKEN=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
+
+# Optional: Enable search engine crawl & index
+# SEO_ENV=production
 
 # Optional: Set port if required
 # PORT=3000
@@ -37,13 +40,9 @@ GH_TOKEN=YOUR_PERSONAL_ACCESS_TOKEN
 # NUXT_APP_BASE_URL='/portfolio-nuxt-tailwind-graphql'
 ```
 
-### How to enable SEO (nuxt.config.ts)
+### SEO Configuration (nuxt.config.ts)
 
-```js
-site: { indexable: true },
-```
-
-Check out the [module documentation](https://nuxtseo.com/robots/getting-started/installation) for more information.
+Check out the [robots module documentation](https://nuxtseo.com/robots/getting-started/installation) for more information.
 
 ### Make sure to install the dependencies
 

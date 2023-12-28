@@ -1,10 +1,19 @@
 <template>
   <footer class="bg-gray-800">
-    <section class="h-16 mx-auto max-w-7xl px-2 sm:px-4 lg:py-6 text-gray-300 flex flex-row items-center">
-      <p class="flex-1 ml-1">&copy; Brandon Winger-Air | 2023.</p>
+    <section class="h-40 md:h-24 lg:h-17 mx-auto max-w-7xl px-2 sm:px-4 lg:py-6 text-gray-300 flex flex-row items-center grid md:grid-cols-3 grid-rows-2 md:grid-rows-1">
+      <p class="ml-2 lg:ml-3 justify-self-center md:justify-self-start">&copy; Brandon Winger-Air | 2023.</p>
 
-      <div class="flex flex-row justify-center gap-4 mr-2">
-        <a v-for="link in links" :key="link.name" :href="link.href">
+      <a href="https://streamelements.com/brandonwinger-air/tip" target="_blank" class="justify-self-center">
+        <button 
+          type="button" 
+          class="w-42 h-10 text-white bg-emerald-600 hover:bg-emerald-700 focus:outline-none focus:ring-4 focus:ring-emerald-300 font-semibold rounded-md text-sm px-5 py-1 dark:bg-emerald-100 dark:hover:bg-emerald-200 dark:focus:ring-emerald-200 dark:border-emerald-200 opacity-90 border-neutral-400 mb-5 sm:mb-0 ml-1 lg:ml-0"
+        >
+          Support future development <Icon name="uil:coffee" size="1.5rem" class="text-amber-900 hover:text-amber-400"/>
+        </button>
+      </a>
+
+      <div class="justify-self-center md:justify-self-end flex flex-row justify-center gap-4 mr-5 mb-4 sm:mb-0">
+        <a v-for="link in links" :key="link.name" :href="link.href" target="_blank">
           <Icon :name="link.icon" size="1.5rem" class="text-gray-300"/>
         </a>
       </div>
