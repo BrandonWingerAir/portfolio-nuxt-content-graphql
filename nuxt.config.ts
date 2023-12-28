@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     '@nuxtjs/apollo',
     'nuxt-simple-robots'
   ],
-  site: { indexable: true },
+  site: { indexable: process.env.SEO_ENV == 'production' ? true : false },
   runtimeConfig: {
     public: {
       baseURL: process.env.NUXT_APP_BASE_URL ? process.env.NUXT_APP_BASE_URL : process.env.PORT ? 'http://127.0.0.1:' + process.env.PORT : ''
