@@ -22,17 +22,22 @@ Custom Features:
 
 Redesign based on a [tutorial series](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gqdtrsPXR3K7nJhvYugyni) by [Dan Vega](https://www.danvega.dev/).
 
-## .env File Variables
+## Setup
+
+### Add the following to environment file (.env)
 
 ```Dotenv
-# Optional: Ex. GitHub Pages
-NUXT_APP_BASE_URL='/your-sub-directory'
-
 # GitHub API for Projects page
 GH_TOKEN=YOUR_PERSONAL_ACCESS_TOKEN
+
+# Optional: Set port if required
+# PORT=3000
+
+# Optional: Subdirectory for Nuxt config baseURL
+# NUXT_APP_BASE_URL='/portfolio-nuxt-tailwind-graphql'
 ```
 
-## How to enable SEO (nuxt.config.ts)
+### How to enable SEO (nuxt.config.ts)
 
 ```js
 site: { indexable: true },
@@ -40,9 +45,7 @@ site: { indexable: true },
 
 Check out the [module documentation](https://nuxtseo.com/robots/getting-started/installation) for more information.
 
-## Setup
-
-Make sure to install the dependencies:
+### Make sure to install the dependencies
 
 ```bash
 # npm
@@ -58,7 +61,7 @@ yarn install
 bun install
 ```
 
-## Development Server
+### Development Server
 
 Start the development server on `http://localhost:3000`:
 
@@ -76,7 +79,7 @@ yarn dev
 bun run dev
 ```
 
-## Production
+### Production
 
 Build the application for production:
 
