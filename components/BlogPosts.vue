@@ -6,7 +6,7 @@
       class="bg-white rounded-lg shadow-md overflow-hidden hover:opacity-75"
     >
       <NuxtLink :to="post._path">
-        <img :src="`/images/blog/${post.cover}`" alt="Blog Post Cover Image" class="w-full h-48 object-cover">
+        <img :src="`${config.public.baseURL}/images/blog/${post.cover}`" alt="Blog Post Cover Image" class="w-full h-48 object-cover">
       </NuxtLink>
       <div class="p-6">
         <h2 class="text-xl font-bold mb-2">{{ post.title }}</h2>
@@ -23,5 +23,6 @@
 </template>
 
 <script setup>
-const props = defineProps(['posts'])
+const config = useRuntimeConfig();
+const props = defineProps(['posts']);
 </script>
