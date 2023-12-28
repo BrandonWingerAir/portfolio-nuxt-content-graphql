@@ -28,7 +28,7 @@ Redesign based on a [tutorial series](https://www.youtube.com/playlist?list=PL4c
 
 ```Dotenv
 # GitHub API for Projects page
-GH_TOKEN=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
+GH_TOKEN=YOUR_PERSONAL_ACCESS_TOKEN
 
 # Optional: Enable search engine crawl & index
 # SEO_ENV=production
@@ -37,7 +37,7 @@ GH_TOKEN=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
 # PORT=3000
 
 # Optional: Subdirectory for Nuxt config baseURL
-# NUXT_APP_BASE_URL='/portfolio-nuxt-tailwind-graphql'
+# NUXT_APP_BASE_URL='/your-subdomain'
 ```
 
 ### SEO Configuration (nuxt.config.ts)
