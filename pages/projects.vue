@@ -1,5 +1,5 @@
 <template>
-  <section class="grid md:grid-cols-2">
+  <section class="grid md:grid-cols-2 mb-4">
     <h1 class="text-3xl md:text-5xl mt-10 mt-14 mb-4">
       🖱️ Website Dev /
       <span class="font-semibold">Projects</span>
@@ -8,11 +8,12 @@
     <SiteTagline/>
   </section>
 
-  <section class="mb-8 transparent-bg p-8 mt-8">
-    <h2 class="text-3xl font-bold mb-8">
+  <section class="mb-8 transparent-bg p-8">
+    <h2 class="text-2xl md:text-3xl mb-6 font-semibold">
       Recent Projects
     </h2>
-    <hr class="w-56 mb-6">
+    <hr class="w-56 mb-4">
+
     <section class="grid md:grid-cols-2 gap-10">
       <div 
         v-for="project in data?.viewer.repositories.nodes" 

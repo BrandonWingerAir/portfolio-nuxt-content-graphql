@@ -1,5 +1,5 @@
 <template>
-  <section class="grid md:grid-cols-2">
+  <section class="grid md:grid-cols-2 mb-4">
     <h1 class="text-3xl md:text-5xl mt-10 md:mt-14 mb-4">
       🖱️ Website Dev /
       <span class="font-semibold">Home</span>
@@ -8,10 +8,11 @@
     <SiteTagline/>
   </section>
 
-  <section class="transparent-bg p-8 mt-3 mb-10">
-    <h2 class="text-2xl md:text-3xl font-bold">
-      Latest Blog Posts
+  <section class="transparent-bg p-8 mb-10">
+    <h2 class="text-2xl md:text-3xl font-semibold mb-6">
+      Recent Blog Posts
     </h2>
+    <hr class="w-64 mb-8">
     <BlogPosts :posts="posts"/>
   </section>
   

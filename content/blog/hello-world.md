@@ -8,7 +8,7 @@ tags:
   - demo
 ---
 
-# Hello, World 👋🏻
+# This is a heading size 1 👋🏻
 
 This is a paragraph.
 
@@ -16,7 +16,7 @@ This is another paragraph.
 
 ![Randomized Placeholder](/images/blog/nasa-Q1p7bh3SHj8-unsplash.jpg)
 
-## This is a heading 2
+## This is a heading size 2
 
 You can use lists
 
@@ -38,6 +38,8 @@ You can use blockquotes
 You can use links
 
 [This is a link](https://github.com/BrandonWingerAir)
+
+### This is a heading size 3
 
 You can use tables
 
