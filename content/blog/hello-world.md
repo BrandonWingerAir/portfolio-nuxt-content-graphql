@@ -4,8 +4,7 @@ description: This is my very first blog post and I'm so excited to share it with
 date: 2023-12-19
 cover: nasa-Q1p7bh3SHj8-unsplash.jpg
 tags:
-  - blog
-  - demo
+  - example templates
 ---
 
 # This is a heading size 1 👋🏻
@@ -14,7 +13,7 @@ This is a paragraph.
 
 This is another paragraph.
 
-![Randomized Placeholder](/images/blog/nasa-Q1p7bh3SHj8-unsplash.jpg)
+![This is an image](/images/blog/nasa-Q1p7bh3SHj8-unsplash.jpg)
 
 ## This is a heading size 2
 

@@ -60,7 +60,7 @@ definePageMeta({
 
 const { data: posts } = await useAsyncData('latest-posts', () => 
   queryContent('/blog')
-    .sort({ data: 1 })
+    .sort({ date: -1 })
     .limit(3)
     .find()
 );
