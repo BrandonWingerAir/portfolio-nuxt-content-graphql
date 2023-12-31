@@ -32,7 +32,7 @@
     <h2 class="text-2xl font-semibold mt-8 mb-2">Custom Features:</h2>
     <ul class="list-disc">
       <li class="ml-8 py-1">Color scheme, spacing & UI additions</li>
-      <li class="ml-8 py-1">Animated gradient background</li>
+      <li class="ml-8 py-1">Animated gradient background on homepage</li>
       <li class="ml-8 py-1">Nuxt pages and layouts</li>
       <li class="ml-8 py-1">Github Actions workflow & deployment</li>
       <li class="ml-8 py-1">API token environment secret and baseURL variable</li>
