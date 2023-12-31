@@ -1,5 +1,5 @@
 <template>
-  <section class="mb-7">
+  <section class="mb-8 md:mb-7">
     <h1 class="text-3xl md:text-5xl mt-10 md:mt-14 mb-6">
       🖱️ Website Dev /
       <span class="font-semibold">Studies</span>
@@ -9,7 +9,7 @@
 
   <section class="mb-8 transparent-bg p-8">
     <h2 class="text-2xl md:text-3xl font-semibold mb-4">
-      Case Studies | Under Construction 🚧
+      Case Study
     </h2>
 
     <p class="text-lg mb-7">

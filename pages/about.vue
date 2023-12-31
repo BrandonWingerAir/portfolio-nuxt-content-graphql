@@ -1,5 +1,5 @@
 <template>
-  <section class="grid md:grid-cols-2 mb-3 md:mb-5">
+  <section class="grid md:grid-cols-2 mb-4 md:mb-5">
     <h1 class="text-3xl md:text-5xl mt-10 md:mt-14 mb-4">
       🖱️ Website Dev /
       <span class="font-semibold">About</span>
