@@ -1,15 +1,17 @@
 ---
-title: Nuxt 3 + Tailwind CSS + GraphQL
+title: Nuxt 3 + Tailwind CSS + GraphQL & Server Deployment
 description: Redesign of a Blog & Portfolio website, based on a tutorial series by Dan Vega with custom features added. 
 date: 2024-01-01
-cover: tutorial-blog-screenshot.png
+cover: responsive-thumbnail-blog-portfolio.png
 tags:
   - case study
 ---
 
-<h2 class="text-3xl font-bold mb-4">
-  Project - Blog & Portolio Site
+<h2 class="text-3xl font-semibold mb-9">
+  Project - Design and Development - Blog & Portolio Site
 </h2>
+
+<img src="/images/studies/responsive-thumbnail-blog-portfolio.png" alt="" class="mb-6"/>
 
 <h2 class="text-2xl font-semibold mt-8 mb-2">This website was built with:</h2>
 <ul class="list-disc">
@@ -45,3 +47,16 @@ tags:
 <h3 class="text-center">
   Tutorial published by <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9gqdtrsPXR3K7nJhvYugyni" target="_blank" class="font-bold hover:underline">Net Ninja</a>
 </h3>
+
+<hr class="w-1/2 mx-auto mt-9 mb-8">
+
+<h4 class="text-xl text-center">
+  <a 
+    href="https://github.com/BrandonWingerAir/portfolio-nuxt-tailwind-graphql" 
+    aria-label="Dan Vega on YouTube"
+    target="_blank"
+    class="text-white"
+  >
+    <span class="font-semibold">Code files</span> on <span class="font-semibold">Github</span> <Icon name="uil:github" size="1.1rem"/>
+  </a>
+</h4>

@@ -9,8 +9,8 @@
     I have been developing for 8+ years using my knowledge, research and diverse experience to help clients achieve their goals. 
   </p>
   <p class="text-lg py-2">
-    In my personal life I have two cats and an interest in the arts, cooking, media production and technology.
-    I enjoy playing instruments, video games, nature, staying fit, mountain biking or skateboarding, reading and watching shows or documentaries.
+    In my personal life I have two cats and an interest in the arts, media production and technology.
+    I enjoy playing instruments, video games, nature, cooking, staying fit, mountain biking or skateboarding, reading and watching shows or documentaries.
   </p>
   <p class="text-lg font-bold pt-2">
     I am currently seeking any long-term/permanent for hire opportunities and open to temporary contracts or freelance projects.

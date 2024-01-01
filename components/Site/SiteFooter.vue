@@ -6,7 +6,8 @@
       <a href="https://streamelements.com/brandonwinger-air/tip" target="_blank" class="justify-self-center">
         <button 
           type="button" 
-          class="w-42 h-10 text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-4 focus:ring-sky-300 font-semibold rounded-md text-sm px-5 py-1 dark:bg-sky-100 dark:hover:bg-sky-200 dark:focus:ring-sky-200 dark:border-sky-200 opacity-90 border-neutral-400 mb-5 sm:mb-0 ml-1 lg:ml-0"
+          id="contribute-btn"
+          class="w-42 h-10 text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-4 focus:ring-sky-300 font-semibold rounded-md text-sm px-5 py-1 dark:bg-sky-100 dark:hover:bg-sky-200 dark:focus:ring-sky-200 dark:border-sky-200 opacity-90 border-sky-300 mb-5 sm:mb-0 ml-1 lg:ml-0"
         >
           Support future development <Icon name="uil:coffee" size="1.5rem" class="text-neutral-400 hover:text-neutral-300"/>
         </button>
@@ -27,3 +28,9 @@ const links = [
   { name: 'LinkedIn', href: 'https://www.linkedin.com/in/bwingerair/', icon: 'uil:linkedin' }
 ]
 </script>
+
+<style>
+#contribute-btn {
+  border-width: 1px;
+}
+</style>

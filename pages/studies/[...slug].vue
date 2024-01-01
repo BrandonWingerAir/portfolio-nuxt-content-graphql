@@ -10,7 +10,7 @@
   <section class="w-full transparent-bg-dark p-8 text-white">
     <main>
       <h2 class="text-2xl md:text-3xl font-semibold border-b-2 inline-block mb-8 pb-7">
-        {{ data.title }}
+        Case Study <span class="font-thin">| {{ data.title }}</span>
       </h2>
       <ContentRenderer :value="data" class="prose prose-invert mb-4 mx-auto max-w-7xl"/>
       <div class="my-8">
