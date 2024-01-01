@@ -15,6 +15,14 @@
     <hr class="w-64 mb-8">
     <BlogPosts :posts="posts"/>
   </section>
+
+  <section class="transparent-bg p-8 mb-10">
+    <h2 class="text-2xl md:text-3xl font-semibold mb-6">
+      Project Case Studies
+    </h2>
+    <hr class="w-72 mb-8">
+    <CaseStudies :studies="studies"/>
+  </section>
   
   <section class="flex flex-col md:flex-row transparent-bg">
     <div class="md:w-3/4 pt-8 p-8 md:pr-2">
@@ -52,14 +60,19 @@
 </template>
 
 <script setup>
-import AboutDescription from '~/components/AboutDescription.vue';
-
 definePageMeta({
   layout: 'animated-bg'
 });
 
 const { data: posts } = await useAsyncData('latest-posts', () => 
   queryContent('/blog')
+    .sort({ date: -1 })
+    .limit(3)
+    .find()
+);
+
+const { data: studies } = await useAsyncData('latest-studies', () => 
+  queryContent('/studies')
     .sort({ date: -1 })
     .limit(3)
     .find()

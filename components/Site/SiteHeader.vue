@@ -55,7 +55,7 @@ const navigation = [
   { name: 'Home', href: `${config.public.baseURL}/`, current: route.name == 'index' },
   { name: 'Blog', href: `${config.public.baseURL}/blog`, current: route.name.includes('blog') },
   { name: 'Projects', href: `${config.public.baseURL}/projects`, current: route.name == 'projects' },
-  { name: 'Case Studies', href: `${config.public.baseURL}/case-studies`, current: route.name == 'case-studies' },
+  { name: 'Case Studies', href: `${config.public.baseURL}/studies`, current: route.name.includes('studies') },
   { name: 'About', href: `${config.public.baseURL}/about`, current: route.name == 'about' },
 ]
 </script>
