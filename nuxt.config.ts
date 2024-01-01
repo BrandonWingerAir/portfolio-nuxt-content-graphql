@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     '@nuxtjs/apollo',
     'nuxt-simple-robots'
   ],
-  site: { indexable: process.env.SEO_ENV == 'production' ? true : false },
   runtimeConfig: {
     public: {
       baseURL: process.env.NUXT_APP_BASE_URL ? process.env.NUXT_APP_BASE_URL : process.env.PORT ? 'http://127.0.0.1:' + process.env.PORT : ''
@@ -27,5 +26,14 @@ export default defineNuxtConfig({
         httpEndpoint: 'https://api.github.com/graphql'
       }
     },
-  }
+  },
+  app: {
+    head: {
+      title: 'Brandon Winger-Air | Dev Blog & Portfolio',
+      meta: [
+        { name: 'description', content: 'Website & Web Application development/design blog + portfolio with tools, guides, tutorial and course resources for developers' }
+      ],
+    }
+  },
+  site: { indexable: process.env.SEO_ENV == 'production' ? true : false }
 })
