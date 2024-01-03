@@ -6,7 +6,7 @@
   >
     <button 
       type="button" 
-      class="w-42 h-14 text-gray-900 dark:text-gray-100 bg-gray-100 hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-md text-sm px-5 py-1 me-2 mb-2 dark:bg-neutral-900 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 opacity-90 border-neutral-800"
+      class="w-42 h-14 text-gray-900 dark:text-gray-100 bg-gray-100 hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-md text-sm px-5 py-1 me-2 mb-2 dark:bg-neutral-900 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-400 opacity-90 border-neutral-800"
     >
       <Icon name="uil:calculator" size="1.5rem" class="text-cyan-600 mr-1"/> Time & Cost Estimate Calculator
     </button>
