@@ -22,7 +22,7 @@
                 v-for="item in navigation" 
                 :key="item.name" 
                 :href="item.href" 
-                :class="[item.current ? 'bg-neutral-200 dark:bg-gray-900 text-black dark:text-white uppercase font-bold' : 'text-gray-900 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-700 hover:text-black dark:hover:text-white uppercase', 'rounded-md px-3 py-2 text-sm']" 
+                :class="[item.current ? 'bg-neutral-200 dark:bg-gray-900 dark:text-white uppercase font-bold' : 'dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-700 hover:text-black dark:hover:text-white uppercase', 'rounded-md px-3 py-2 text-sm']" 
                 :aria-current="item.current ? 'page' : undefined"
               >
                 {{ item.name }}
@@ -31,11 +31,11 @@
           </div>
         </div>
 
-        <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+        <div class="absolute inset-y-0 right-0 flex items-center sm:static sm:inset-auto sm:ml-6 pr-0">
           <Menu as="div" class="relative ml-3">
             <div>
-              <MenuButton class="relative flex rounded-md bg-orange-400 hover:bg-orange-500 border-1 border-neutral-800 md:border-neutral-700 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 pt-1 pb-2 px-2 md:px-3">
-                <a href="https://brandonwinger-air.com" target="_blank" class="md:uppercase text-base font-semibold text-neutral-100">
+              <MenuButton class="relative flex rounded-md bg-gray-300 hover:bg-gray-400 border-1 border-neutral-800 md:border-neutral-700 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 pt-1 pb-2 px-3">
+                <a href="https://brandonwinger-air.com" target="_blank" class="md:uppercase text-base font-medium text-neutral-800">
                   <span class="hidden md:inline-block">Main</span> Portfolio 💼
                 </a>
               </MenuButton>
