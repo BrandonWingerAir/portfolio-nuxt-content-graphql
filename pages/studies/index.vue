@@ -7,7 +7,7 @@
     <SiteTagline/>
   </section>
 
-  <section class="mb-8 transparent-bg p-8">
+  <section class="mb-8 transparent-bg p-8 dark:text-neutral-100">
     <h2 class="text-2xl md:text-3xl font-semibold mb-4">
       Case Study
     </h2>

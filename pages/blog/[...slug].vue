@@ -7,13 +7,13 @@
     <SiteTagline/>
   </section>
 
-  <section class="w-full transparent-bg-dark p-8 text-white">
+  <section class="w-full transparent-bg-dark p-8 dark:text-white">
     <main>
-      <h2 class="text-2xl md:text-3xl font-semibold border-b-2 inline-block mb-8 pb-7">
+      <h2 class="text-2xl md:text-3xl font-semibold border-b-2 border-neutral-800 dark:border-gray-200 inline-block mb-8 pb-7">
         {{ data.title }}
       </h2>
       <h3 class="text-lg font-bold mb-6">Posted by: <a href="https://brandonwinger-air.com" target="_blank" class="font-thin">Brandon Winger-Air</a></h3>
-      <ContentRenderer :value="data" class="prose prose-invert mb-4 mx-auto max-w-7xl"/>
+      <ContentRenderer :value="data" class="prose dark:prose-invert mb-4 mx-auto max-w-7xl"/>
       <div class="my-8">
         <!-- TODO: Create Tags Page -->
         <!-- <a 

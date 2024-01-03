@@ -9,7 +9,7 @@
   </section>
 
   <section class="mb-8 transparent-bg p-8">
-    <h2 class="text-2xl md:text-3xl mb-6 font-semibold">
+    <h2 class="text-2xl md:text-3xl mb-6 font-semibold dark:text-neutral-100">
       Recent Projects
     </h2>
     <hr class="w-56 mb-4">
@@ -18,21 +18,21 @@
       <div 
         v-for="project in data?.viewer.repositories.nodes" 
         :key="project.id" 
-        class="p-8 border-4 mt-4 rounded-lg border-white bg-gray-900"
+        class="p-8 border-4 mt-4 rounded-lg border-neutral-100 dark:border-neutral-400 bg-gray-300 dark:bg-gray-900"
       >
         <a :href="project.url" target="_blank">
-          <h2 class="text-2xl text-gray-100 font-semibold mb-2 hover:underline">
+          <h2 class="text-2xl dark:text-gray-100 font-semibold mb-2 hover:underline">
             {{ project.name }}
           </h2>
         </a>
-        <p class="text-gray-300">{{ project.description }}</p>
-        <div class="text-white">
-          <button class="rounded-md bg-sky-500 hover:bg-sky-600 p-2 pt-1 mt-4 mr-3">
+        <p class="dark:text-gray-300">{{ project.description }}</p>
+        <div class="text-white dark:text-neutral-100">
+          <button class="rounded-md border-2 border-neutral-100 dark:border-0 bg-sky-500 dark:bg-sky-600 hover:bg-sky-600 dark:hover:bg-sky-500 p-2 pt-1 mt-4 mr-3">
             <a :href="project.homepageUrl" target="_blank">
               View Site
             </a>
           </button>
-          <button class="rounded-md bg-emerald-500 hover:bg-emerald-600 p-2 pt-1">
+          <button class="rounded-md border-2 border-neutral-100 dark:border-0 bg-emerald-500 dark:bg-emerald-600 hover:bg-emerald-600 dark:hover:bg-emerald-500 p-2 pt-1">
             <a :href="project.url" target="_blank">
               View Code
             </a>

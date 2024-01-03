@@ -8,7 +8,7 @@
   </section>
 
   <section class="transparent-bg p-8">
-    <h2 class="text-2xl md:text-3xl mb-6 font-semibold">
+    <h2 class="text-2xl md:text-3xl mb-6 font-semibold dark:text-neutral-100">
       Blog Posts
     </h2>
     <hr class="w-36 mb-8">

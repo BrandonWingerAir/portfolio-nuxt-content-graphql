@@ -1,5 +1,5 @@
 ---
-title: Nuxt 3 + Tailwind CSS + GraphQL & Server Deployment
+title: Nuxt 3 + Tailwind CSS + GraphQL and Deployment
 description: Redesign of a Blog & Portfolio website, based on a tutorial series by Dan Vega with custom features added. 
 date: 2024-01-01
 cover: responsive-thumbnail-blog-portfolio.png
@@ -8,7 +8,7 @@ tags:
 ---
 
 <h2 class="text-3xl font-semibold mb-9">
-  Project - Design and Development - Blog & Portolio Site
+  Project: Design and Development - Blog & Portolio Site
 </h2>
 
 <img src="/images/studies/responsive-thumbnail-blog-portfolio.png" alt="" class="mb-6"/>
@@ -30,17 +30,18 @@ tags:
   <li class="ml-8 py-1">Responsive styles and graphic design</li>
 </ul>
 
-<h2 class="text-2xl font-semibold mt-8 mb-2">Based on a series by:</h2>
-<button class="rounded-md border-0 bg-red-600 hover:bg-red-600 p-2 pt-1 mt-4 mr-3 mb-7">
+<h2 class="text-2xl font-semibold mt-8">Based on a series by:</h2>
+
+<div>
   <a 
     href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9gqdtrsPXR3K7nJhvYugyni" 
     aria-label="Dan Vega on YouTube"
     target="_blank"
-    class="text-white"
+    class="dark:text-white"
   >
     <span class="font-semibold">Dan Vega</span> on <span class="font-semibold">YouTube</span> <Icon name="uil:youtube" size="1.1rem"/>
   </a>
-</button>
+</div>
 
 <img src="/images/studies/tutorial-blog-screenshot.png" alt="" class="mb-6"/>
 
@@ -55,7 +56,7 @@ tags:
     href="https://github.com/BrandonWingerAir/portfolio-nuxt-tailwind-graphql" 
     aria-label="Dan Vega on YouTube"
     target="_blank"
-    class="text-white"
+    class="dark:text-white"
   >
     <span class="font-semibold">Code files</span> on <span class="font-semibold">Github</span> <Icon name="uil:github" size="1.1rem"/>
   </a>

@@ -5,7 +5,8 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxt/content',
     '@nuxtjs/apollo',
-    'nuxt-simple-robots'
+    'nuxt-simple-robots',
+    '@nuxtjs/color-mode'
   ],
   runtimeConfig: {
     public: {
