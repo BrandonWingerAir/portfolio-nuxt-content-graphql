@@ -9,18 +9,16 @@
   </section>
 
   <section class="transparent-bg p-8 mb-10 dark:text-neutral-100">
-    <h2 class="text-2xl md:text-3xl font-semibold mb-6">
+    <h2 class="inline-block text-2xl md:text-3xl font-semibold mb-2 border-b-1 border-white pb-6">
       Recent Blog Posts
     </h2>
-    <hr class="w-64 mb-8">
     <BlogPosts :posts="posts"/>
   </section>
 
   <section class="transparent-bg p-8 mb-10 dark:text-neutral-100">
-    <h2 class="text-2xl md:text-3xl font-semibold mb-6">
+    <h2 class="inline-block text-2xl md:text-3xl font-semibold mb-2 border-b-1 border-white pb-6">
       Project Case Studies
     </h2>
-    <hr class="w-72 mb-8">
     <CaseStudies :studies="studies"/>
   </section>
   

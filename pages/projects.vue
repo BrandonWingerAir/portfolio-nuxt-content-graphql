@@ -9,10 +9,9 @@
   </section>
 
   <section class="mb-8 transparent-bg p-8">
-    <h2 class="text-2xl md:text-3xl mb-6 font-semibold dark:text-neutral-100">
+    <h2 class="inline-block text-2xl md:text-3xl mb-5 font-semibold dark:text-neutral-100 border-b-1 border-white pb-6">
       Recent Projects
     </h2>
-    <hr class="w-56 mb-4">
 
     <section class="grid md:grid-cols-2 gap-10">
       <div 
@@ -26,6 +25,7 @@
           </h2>
         </a>
         <p class="dark:text-gray-300">{{ project.description }}</p>
+
         <div class="text-white dark:text-neutral-100">
           <button class="rounded-md border-2 border-neutral-100 dark:border-0 bg-sky-500 dark:bg-sky-600 hover:bg-sky-600 dark:hover:bg-sky-500 p-2 pt-1 mt-4 mr-3">
             <a :href="project.homepageUrl" target="_blank">
@@ -38,6 +38,8 @@
             </a>
           </button>
         </div>
+
+        <!-- Additional GitHub Repo Data -->
         <!-- <div class="mt-4">
           <Icon name="uil:star" size="1.1rem" class="text-indigo-700"/> Stars: {{ project.stargazerCount }}
           <Icon name="system-uicons:branch" size="1.1rem" class="text-indigo-700"/> Forks: {{ project.forkCount }}

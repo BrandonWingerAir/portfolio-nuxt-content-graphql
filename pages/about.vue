@@ -22,7 +22,7 @@
         </button>
       </div>
 
-      <hr class="mt-6 mb-4 border-gray-400">
+      <hr class="mt-6 mb-5 border-gray-500">
 
       <AboutDescription/>
       <AboutContactBtn/>
