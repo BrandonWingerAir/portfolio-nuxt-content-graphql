@@ -1,6 +1,6 @@
 <template>
   <section class="grid md:grid-cols-2 mb-4 md:mb-5">
-    <h1 class="text-3xl md:text-5xl mt-10 md:mt-14 mb-4">
+    <h1 class="text-3xl md:text-5xl mt-11 mb-4">
       🖱️ Website Dev /
       <span class="font-semibold">Home</span>
     </h1>
@@ -9,7 +9,7 @@
   </section>
 
   <section class="transparent-bg p-8 mb-10 dark:text-neutral-100">
-    <h2 class="inline-block text-2xl md:text-3xl font-semibold mb-2 border-b-1 border-white pb-6">
+    <h2 class="inline-block text-2xl md:text-3xl font-semibold mb-1 border-b-1 border-white pb-6">
       Recent Blog Posts
     </h2>
     <BlogPosts :posts="posts"/>

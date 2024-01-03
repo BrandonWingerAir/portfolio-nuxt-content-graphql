@@ -11,6 +11,10 @@
 </template>
 
 <style>
+body {
+  background-color: #000;
+}
+
 /* Transparent Backgrounds */
 .transparent-bg {
   background: rgba(255, 255, 255, 0.35);
@@ -68,6 +72,10 @@
 }
 
 /* 1px Borders */
+.border-1 {
+  border-width: 1px;
+}
+
 .border-t-1 {
   border-top-width: 1px;
 }
@@ -83,5 +91,11 @@
 
 .prose :where(ul > li):not(:where([class~="not-prose"], [class~="not-prose"] *))::marker {
   color: #000
+}
+
+@media screen and (min-width: 640px) {
+  .nav-border-thin {
+    border-width: 1px;
+  }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-neutral-100 dark:bg-gray-800 border-t-1 border-t-gray-900">
+  <footer class="bg-neutral-100 dark:bg-gray-800 border-t-2 nav-border-thin border-t-neutral-900 md:border-t-gray-900">
     <section class="h-40 md:h-24 lg:h-20 mx-auto max-w-7xl px-2 sm:px-4 lg:py-2 text-black dark:text-gray-300 flex flex-row items-center grid md:grid-cols-3 grid-rows-2 md:grid-rows-1">
       <p class="ml-2 lg:ml-3 justify-self-center md:justify-self-start">&copy; Brandon Winger-Air | 2023.</p>
 
