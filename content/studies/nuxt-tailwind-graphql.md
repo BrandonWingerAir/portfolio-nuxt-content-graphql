@@ -1,5 +1,5 @@
 ---
-title: Nuxt 3 + Tailwind CSS + GraphQL and Deployment
+title: Nuxt 3 + Tailwind CSS + GraphQL/API and Deployment
 description: Redesign of a Blog & Portfolio website, based on a tutorial series by Dan Vega with custom features added. 
 date: 2024-01-01
 cover: responsive-thumbnail-blog-portfolio.png
@@ -8,7 +8,7 @@ tags:
 ---
 
 <h2 class="text-3xl font-semibold mb-9">
-  Project: Design and Development - Blog & Portolio Site
+  Blog & Portolio Site - Development and Design
 </h2>
 
 <img src="/images/studies/responsive-thumbnail-blog-portfolio.png" alt="" class="mb-6"/>

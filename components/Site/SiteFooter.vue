@@ -7,7 +7,7 @@
         <button 
           type="button" 
           id="contribute-btn"
-          class="w-42 h-10 bg-gray-300 hover:bg-gray-400 dark:bg-gray-400 dark:hover:bg-gray-500 focus:outline-none focus:ring-4 focus:ring-sky-300 font-semibold rounded-md text-sm px-5 py-1 opacity-90 border-slate-600 dark:border-slate-400 mb-5 sm:mb-0 ml-1 lg:ml-0"
+          class="w-42 h-10 bg-cyan-500 hover:bg-cyan-600 dark:bg-gray-400 dark:hover:bg-gray-500 focus:outline-none focus:ring-4 focus:ring-sky-300 font-semibold rounded-md text-sm text-white px-5 py-1 opacity-90 border-slate-600 dark:border-slate-400 mb-5 sm:mb-0 ml-1 lg:ml-0"
         >
           Support future development <Icon name="uil:coffee" size="1.5rem" class="text-amber-900 hover:text-amber-400"/>
         </button>

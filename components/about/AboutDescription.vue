@@ -3,7 +3,7 @@
     Full-stack <b>Developer</b> and <b>Designer</b> living in <b class="font-normal md:font-bold">Ontario, Canada</b> with a degree in <b>Enterprise Web & Mobile App Development</b>. 
   </p>
   <p class="text-lg py-2">
-    I am a passionate programmer who enjoys learning, implementing best practices, solving complex challenges, quality assurance, creativity and always striving to improve.
+    I am a coder who enjoys learning, implementing best practices, solving complex challenges, quality assurance, creativity and always striving to improve.
   </p>
   <p class="text-lg py-2">
     I have been developing for 8+ years using my knowledge, research and diverse experience to help clients achieve their goals. 

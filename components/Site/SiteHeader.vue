@@ -34,8 +34,8 @@
         <div class="absolute inset-y-0 right-0 flex items-center sm:static sm:inset-auto sm:ml-6 pr-0">
           <Menu as="div" class="relative ml-3">
             <div>
-              <MenuButton class="relative flex rounded-md bg-gray-300 hover:bg-gray-400 border-1 border-neutral-800 md:border-neutral-700 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 pt-1 pb-2 px-3">
-                <a href="https://brandonwinger-air.com" target="_blank" class="md:uppercase text-base font-medium text-neutral-800">
+              <MenuButton class="relative flex rounded-md bg-cyan-500 hover:bg-cyan-600 border-1 border-neutral-800 md:border-neutral-700 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 pt-1 pb-2 px-3">
+                <a href="https://brandonwinger-air.com" target="_blank" class="md:uppercase text-base text-white font-medium">
                   <span class="hidden md:inline-block">Main</span> Portfolio 💼
                 </a>
               </MenuButton>

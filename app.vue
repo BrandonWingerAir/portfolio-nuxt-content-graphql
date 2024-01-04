@@ -12,7 +12,7 @@
 
 <style>
 body {
-  background-color: #000;
+  background-color: #fafafa;
 }
 
 /* Transparent Backgrounds */
