@@ -35,7 +35,7 @@
           <Menu as="div" class="relative ml-3">
             <div>
               <MenuButton class="relative flex rounded-md bg-cyan-500 hover:bg-cyan-600 border-1 border-neutral-800 md:border-neutral-700 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 pt-1 pb-2 px-3">
-                <a href="https://brandonwinger-air.com" target="_blank" class="md:uppercase text-base text-white font-medium">
+                <a href="https://brandonwinger-air.com" target="_blank" class="md:uppercase text-base text-white">
                   <span class="hidden md:inline-block">Main</span> Portfolio 💼
                 </a>
               </MenuButton>
