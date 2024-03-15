@@ -29,7 +29,7 @@
     </div>
 
     <div class="w-1/2 md:max-w-sm p-0 md:p-10 self-center mx-auto mt-9 mb-6 md:mt-0">
-      <img src="~/assets/images/profile.png" alt="" class="w-85 mx-auto my-auto border-2 border-zinc-100 rounded-full">
+      <img src="~/assets/images/profile.jpg" alt="" class="w-85 mx-auto my-auto border-2 border-zinc-100 rounded-full">
     </div>
   </section>
 
